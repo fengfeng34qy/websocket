@@ -1,0 +1,14 @@
+.fortrade #local-auth-popup .appoint-btn{
+    /*color: #f0aa17;*/
+    color: white;
+    width:170px;
+    /*border-bottom-left-radius:10px;*/
+    /*border-bottom-right-radius:10px;*/
+    border-radius:10px;
+    font-size:32px;
+    /*margin-top:200px;*/
+    margin-bottom: 0px;
+    display: inline-block;
+    border: 0;
+    background-color:#f1882a;
+}

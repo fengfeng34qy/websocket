@@ -1,0 +1,105 @@
+#startPage2 #foolter{
+	position: absolute;
+	left: 0;
+	bottom: 2rem;
+	width: 100%;
+	height: 2.3rem;
+}
+#startPage2 .msgText{
+	border:none;
+	outline:none;
+	border-radius: 3px;
+	flex:8;
+	height:100%;
+	padding-left: 1rem;
+	box-sizing: border-box;
+	padding-top:0;
+	padding-bottom: 0;
+}
+#startPage2 .sendBtn{
+	margin-left: .2rem;
+	flex: 2;
+	height:100%;
+	background: #12b7f5;
+	display: inline-block;
+	color: #fff;
+	line-height: 2.3rem;
+	border-radius: 3px;
+	text-align: center;
+}
+#startPage2 #mainbody{
+	height: 72vh;
+	overflow: auto;
+}
+#startPage2 #onlineNum{
+	color: red;
+}
+#startPage2 .msgTxt{
+	/*width: 87%;*/
+	flex: 1;
+	min-height: 3rem;
+	
+	padding: .5rem;
+}
+#startPage2 .faceWrap{
+	border-radius: 50%;
+	overflow: hidden;
+	width:2.6rem;
+	height: 2.6rem;
+	margin-top: 1rem;
+}
+#startPage2 .faceWrap img{
+	width: 100%;
+}
+#startPage2 .msgTxt .text{
+	background: #fff;
+	border-radius: 12px;
+	padding: .5rem;
+	min-width: 3rem;
+	max-width: 100%;
+	text-align: left;
+	display: inline-block;
+	word-wrap: break-word;
+	text-align: center;
+}
+#startPage2 .msgTxt .nick{
+	box-sizing: border-box;
+	position: relative;
+	/*top: -1rem;*/
+}
+#startPage2 #wizard_ul{
+	display: none;
+}
+#startPage2 .actionBar{
+	display: none;
+}
+
+#startPage2 .add_friends{
+	position: absolute;
+	right: 1rem;
+	top: .5rem;
+	font-size: 2rem;
+	width: 2rem;
+	height: 2rem;
+	line-height: 2rem;
+	text-align: center;
+	color: #fff;
+}
+#startPage2 .head_face{
+	position: absolute;
+	left: 1rem;
+	top: .5rem;
+	width: 2rem;
+	height: 2rem;
+	background: red;
+	border-radius: 50%;
+	overflow: hidden;
+}
+#startPage2 .head_face img{
+	width: 100%;
+}
+#startPage2 .exit{
+	text-align: right;
+	color: #777;
+	margin: 6px 0;
+}

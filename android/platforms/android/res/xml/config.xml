@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="io.cordova.hellocordova" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Notification">
+        <param name="android-package" value="org.apache.cordova.dialogs.Notification" />
+    </feature>
+    <feature name="MyMath">
+        <param name="android-package" value="SimpleMath.MyMath" />
+    </feature>
+    <feature name="Device">
+        <param name="android-package" value="org.apache.cordova.device.Device" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="FakeDevice">
+        <param name="android-package" value="FistFackDevice.FakeDevice" />
+    </feature>
+    <feature name="Keyboard">
+        <param name="android-package" onload="true" value="org.apache.cordova.labs.keyboard.Keyboard" />
+    </feature>
+    <feature name="ExitApp">
+        <param name="android-package" value="cordova.custom.plugins.exitapp.ExitApp" />
+    </feature>
+    <name>QQ小程序</name>
+    <description>
+        仿QQ小程序
+    </description>
+    <author email="sunfengfeng@agreen.com.cn" href="http://www.sunfengfeng.com/">
+        孙锋锋
+    </author>
+    <content src="index.html" />
+    <access origin="file://*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <access origin="content:///*" />
+    <allow-navigation href="*" />
+    <icon src="res/icon/android/qq.png" />
+    <allow-intent href="market:*" />
+    <icon density="ldpi" src="res/icon/android/qq.png" />
+    <icon density="mdpi" src="res/icon/android/qq.png" />
+    <icon density="hdpi" src="res/icon/android/qq.png" />
+    <icon density="xhdpi" src="res/icon/android/qq.png" />
+    <icon density="xxhdpi" src="res/icon/android/qq.png" />
+    <splash density="land-hdpi" src="res/screen/android/Default-736h.png" />
+    <splash density="land-ldpi" src="res/screen/android/Default-736h.png" />
+    <splash density="land-mdpi" src="res/screen/android/Default-736h.png" />
+    <splash density="land-xhdpi" src="res/screen/android/Default-736h.png" />
+    <splash density="port-hdpi" src="res/screen/android/Default-736h.png" />
+    <splash density="port-ldpi" src="res/screen/android/Default-736h.png" />
+    <splash density="port-mdpi" src="res/screen/android/Default-736h.png" />
+    <splash density="port-xhdpi" src="res/screen/android/Default-736h.png" />
+    <preference name="loglevel" value="DEBUG" />
+    <preference name="Orientation" value="portrait" />
+    <preference name="SplashScreenDelay" value="3000" />
+</widget>

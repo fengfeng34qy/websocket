@@ -1,0 +1,46 @@
+body{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+ul, li{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+body{
+    background-image: url("../page/startPage/imgs/bg.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.fix:after{
+    display:table; content:''; clear:both;
+}
+.rel{
+    position: relative;
+}
+.sizing{
+	box-sizing: border-box;
+}
+.lf{
+    float: left;
+}
+.rf{
+    float: right;
+}
+.flex{
+    display: flex;
+}
+
+#frame-full{
+    height: 100%;
+}

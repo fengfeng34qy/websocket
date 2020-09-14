@@ -1,0 +1,29 @@
+#startPage input.line_item{
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    line-height: 2rem;
+    background: rgba(255,255,255,0);
+    /*color: #fff;*/
+    /*width: 80%;*/
+}
+#startPage #login_main{
+    margin-top: 32vh;
+}
+#startPage #login_main .line{
+    /*margin-top: 1rem;*/
+    /*line-height: 2rem;*/
+}
+#startPage #login_main input::-webkit-input-placeholder{
+    /*color: #fff;*/
+}
+#startPage span.login{
+    display: inline-block;
+    width: 80%;
+    height: 2rem;
+    line-height: 2rem;
+    color: #fff;
+    border-radius: 3px;
+    background: rgba(22, 194, 244, 0.8);
+    margin-top: 1rem;
+}

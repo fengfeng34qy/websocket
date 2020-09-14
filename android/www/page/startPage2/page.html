@@ -1,0 +1,55 @@
+﻿<div data-role="page" id="startPage2" class="frame-full" data-position="fixed">
+    <div data-role="header">
+        <div class="rel" style="height:3rem;background:rgba(0,0,0,.5);">
+            <!-- <h6 style="text-align: center;margin:0;height:1rem;line-height: 1rem;">在线人数</h6> -->
+            <h5 style="margin:0;text-align: center;height:3rem;line-height: 3rem;color:#fff;"><span id="onlineNum"></span><span>人在线</span></h5>
+            <div id="head_face" class="head_face">
+                <img id="face" src="" alt="">
+            </div>
+            <div class="add_friends">
+                <span>+</span>
+            </div>
+        </div>
+    </div>
+    <!-- Main Content -->
+    <div data-role="content">
+
+        <div id="wizard" class="swMain">
+            <ul id="wizard_ul">
+                <li id="step1">
+                    <a href="#step-1">步骤1</a>
+                </li>
+                <li id="step2">
+                    <a href="#step-2">步骤2</a>
+                </li>
+            </ul>
+            <div id="step-1" style="width:100%">
+                
+                <div id="mainbody">
+                    <div id="msgWrap">
+                    </div>
+                </div>
+                <!-- <div id="foolter">
+                    <div class="sizing" style="padding:0 .4rem;height:100%;display:flex;">
+                        <input id="msgText" class="msgText" type="text">
+                        <span id="sendBtn" class="sendBtn">发送</span>
+                    </div>
+                </div> -->
+            </div>
+            <div id="step-2">
+                步骤2
+            </div>
+        </div>
+        
+        <!-- qq提示音 -->
+        <audio id="msg_tip" src="page/startPage2/wav/3424.wav"></audio>
+    </div>
+    
+    <div id="foolter">
+        <div class="sizing" style="padding:0 .4rem;height:100%;display:flex;">
+            <input id="msgText" class="msgText" type="text">
+            <span id="sendBtn" class="sendBtn">发送</span>
+        </div>
+    </div>
+</div>
+

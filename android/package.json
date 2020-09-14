@@ -1,0 +1,40 @@
+{
+  "name": "helloworld",
+  "displayName": "HelloCordova",
+  "version": "1.0.0",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "SimpleMath": "../plugins/MyMath",
+    "cordova-android": "^6.3.0",
+    "cordova-plugin-device": "^2.0.1",
+    "cordova-plugin-dialogs": "^1.3.4",
+    "cordova-plugin-exitapp": "^1.0.0",
+    "cordova-plugin-keyboard": "^1.2.0",
+    "cordova-plugin-splashscreen": "^5.0.1",
+    "cordova-plugin-statusbar": "git+https://github.com/apache/cordova-plugin-statusbar.git",
+    "cordova-plugin-whitelist": "^1.3.3",
+    "cordova-vk": "^1.0.1",
+    "cordova.custom.plugins.exitapp": "~1.0.0",
+    "mymath": "file:../plugins/MyMath"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-dialogs": {},
+      "SimpleMath": {},
+      "cordova-plugin-keyboard": {},
+      "cordova-plugin-device": {},
+      "cordova-plugin-splashscreen": {},
+      "cordova.custom.plugins.exitapp": {}
+    },
+    "platforms": [
+      "android"
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="io.cordova.hellocordova" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>QQ小程序</name>
+    <description>
+        仿QQ小程序
+    </description>
+    <author email="sunfengfeng@agreen.com.cn" href="http://www.sunfengfeng.com/">
+        孙锋锋
+    </author>
+    <content src="index.html" />
+    <access origin="file://*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <access origin="content:///*" />
+    <allow-navigation href="*" />
+    <preference name="Orientation" value="portrait" />
+    <preference name="SplashScreenDelay" value="3000" />
+    <icon src="res/icon/android/qq.png" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <icon density="ldpi" src="res/icon/android/qq.png" />
+        <icon density="mdpi" src="res/icon/android/qq.png" />
+        <icon density="hdpi" src="res/icon/android/qq.png" />
+        <icon density="xhdpi" src="res/icon/android/qq.png" />
+        <icon density="xxhdpi" src="res/icon/android/qq.png" />
+        <splash density="land-hdpi" src="res/screen/android/Default-736h.png" />
+        <splash density="land-ldpi" src="res/screen/android/Default-736h.png" />
+        <splash density="land-mdpi" src="res/screen/android/Default-736h.png" />
+        <splash density="land-xhdpi" src="res/screen/android/Default-736h.png" />
+        <splash density="port-hdpi" src="res/screen/android/Default-736h.png" />
+        <splash density="port-ldpi" src="res/screen/android/Default-736h.png" />
+        <splash density="port-mdpi" src="res/screen/android/Default-736h.png" />
+        <splash density="port-xhdpi" src="res/screen/android/Default-736h.png" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+    <engine name="android" spec="^6.3.0" />
+    <plugin name="cordova-plugin-whitelist" spec="^1.3.3" />
+    <plugin name="cordova-plugin-dialogs" spec="^1.3.4" />
+    <plugin name="SimpleMath" spec="../plugins/MyMath" />
+    <plugin name="cordova-plugin-keyboard" spec="^1.2.0" />
+    <plugin name="cordova-plugin-device" spec="^2.0.1" />
+    <plugin name="cordova-plugin-splashscreen" spec="^5.0.1" />
+    <plugin name="cordova.custom.plugins.exitapp" spec="~1.0.0" />
+</widget>

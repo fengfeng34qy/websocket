@@ -1,0 +1,26 @@
+<div>
+    <div data-role="popup" class="popup tradepopup popupBackgroundImg" id="local-auth-popup" data-dismissible="false" data-transition="pop">
+        <p>本地授权</p>
+        <div id="tranTellerNoLabel" style="width: 850px;margin-left: 600px;">
+            <label class="input-table-password" for="tranTellerNo" style="font-size: 48px;width: 400px;margin-left: 270px;margin-top: 300px;">请输入柜员号</label>
+            <input maxlength="6" type="tel" name="passWord" id="tranTellerNo" v-model="tranTellerNo">
+        </div>
+        
+        <div id="finishNo" class="appoint-btn ui-btn ui-btn-d" v-on:click="finishNo">验证</div>
+        <div id="cancelNo" class="appoint-btn ui-btn ui-btn-d" v-on:click="closeLocalAuth">退出</div>
+    </div>
+        
+    <div data-role="popup" class="popup tradepopup popupBackgroundImg" id="remote-auth-popup">
+        <p style="position: absolute;padding-left: 45%;font-size: 46px">远程授权</p>
+        <p style="position: absolute;padding-left: 35%;padding-top: 60%;font-size: 46px">正在为您努力授权中.请稍候...</p>
+        <div data-role="button" id="cancelDistancePopup" class="transferTradeDistanceBtn" v-on:click="closeRemoteAuth">取消</div>
+        <div>
+            <div style="text-align: center;background-image:url(pic/tradePic/bg.jpg);width: 2048px;height: 1536px;">
+                <img src="pic/tradePic/1.gif" style="margin-top: 23%;width: 600px;" />
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
